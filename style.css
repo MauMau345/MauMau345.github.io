@@ -1,0 +1,50 @@
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+.flex-container {
+    display: flex;
+    background-color: palegreen;
+    min-height: 80vw;
+
+}
+
+div.flex-container {
+    background-color: red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: auto;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+#box0 {
+    background-color: saddlebrown;
+    position: relative;
+
+    border: 3px solid #73AD21;
+    width: 350px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+#box1 {
+    background-color: greenyellow;
+    position: relative;
+
+    border: 3px solid #73AD21;
+    width: 350px;
+    min-height: 200px;
+    max-height: 250px;
+}
+
+#box2 {
+    background-color: gray;
+    position: relative;
+
+    border: 3px solid #73AD21;
+    width: 350px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+h1 {font-size:12px;}
